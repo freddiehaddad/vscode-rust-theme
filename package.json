@@ -1,0 +1,39 @@
+{
+    "name": "vscode-rust-theme",
+    "displayName": "Rust Inspired Theme",
+    "description": "A warm, earthy theme inspired by Rust's branding with oranges and earth tones.",
+    "version": "1.0.0",
+    "publisher": "your-publisher-name",
+    "engines": {
+        "vscode": "^1.74.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "rust",
+        "theme",
+        "dark",
+        "orange",
+        "warm",
+        "earth tones"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Rust Inspired",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/freddiehaddad/vscode-rust-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/freddiehaddad/vscode-rust-theme/issues"
+    },
+    "homepage": "https://github.com/freddiehaddad/vscode-rust-theme#readme",
+    "license": "MIT"
+}
